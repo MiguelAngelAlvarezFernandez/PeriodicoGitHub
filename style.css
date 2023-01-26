@@ -1,0 +1,100 @@
+h1, h2{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+<h1>DIARIO MARCA</h1>
+<img class="Fotos" src="LogoMarca.jfif" alt="Imagen diario marca">
+</header>
+
+h2{
+    border:solid red;
+    border-radius: 1em;
+    width: 50%;
+    margin-right: auto;
+    margin-left:auto;
+    background-color: white;
+}
+
+header{
+    font-size: 3em;
+    background-color: black;
+    color:white
+}
+
+nav{
+    border-style: solid;
+    border-color: red;
+    border-radius: 1em;
+    font-size: 2em;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    display: inline;
+    background-color: red;
+    border-style: solid;
+    border-radius: 0.5em;
+}
+
+li>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.Fotos{
+    display: block;
+    margin: 20px auto;
+}
+
+main{
+    background-color: rgba(17, 0, 253, 0.2);
+    color:white
+    border-radius: 1em;
+    border-style: solid;
+    border-color:yellow
+}
+
+article{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+article p{
+    font-style: italic;
+}
+
+footer>div{
+    border-top: 1px solid;
+    font-size: 0.8em;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+button{
+    background-color: red;
+}
+.PruebaFlex1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.PruebaFlex2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
