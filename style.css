@@ -83,6 +83,10 @@ article p{
     font-style: italic;
 }
 
+article > figure{
+    margin-left:unset
+}
+
 footer>div{
     border-top: 1px solid;
     font-size: 0.8em;
