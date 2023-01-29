@@ -47,12 +47,15 @@ li>a{
 
 h2{
     text-align: center;
+    max-width: 5em;
     border:solid red;
     border-radius: 1em;
     width: 50%;
     margin-right: auto;
     margin-left:auto;
     background-color: white;
+    font-size: 3em;
+    padding: 0.3em;
 }
 
 .imagenseccion{
@@ -75,6 +78,10 @@ article{
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
+
+h3{
+    text-align: center;
+} 
 
     footer>div{
         border-top: 1px solid;
