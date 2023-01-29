@@ -77,6 +77,8 @@ section{
 article{
 max-width: 350px;
 padding: 10px;
+background: linear-gradient(180deg, red, transparent);
+border-radius: 30px;
 }
 
 article p{
