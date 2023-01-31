@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleforms.css">
+</head>
+<body>
+<header>
+<h1>FORMULARIOS</h1>  
+</header>
+
+<main>
+<form class="FORMULARIOS">
+    <fieldset>
+    <legend><h2>Iniciar sesión</h2></legend>
+    <label>
+    Usuario:
+        <input type="email" name="Usuario">
+    </label>
+    <label>
+    Contraseña: 
+        <input type="password" name="Contraseña">
+    </label>
+    <label>
+        <input type="submit" value="Log in">
+    </label>
+    </fieldset>
+</form>
+
+<form class="FORMULARIOS">
+    <fieldset>
+    <legend><h2>Formulario registro</h2></legend>
+    <label>
+        Nombre:
+        <input type="text" name="Nombre">
+    </label>
+    <label>
+        E-mail: 
+        <input type="password" name="E-mail">
+    </label>
+    <label>
+        Contraseña: 
+        <input type="password" name="Contraseña">
+    </label>
+    <label>
+        Repetir Contraseña: 
+        <input type="password" name="Contraseña">
+    </label>
+    <label> 
+        <input type="checkbox" name="AceptMail">
+        ¿Consiente envío de e-mails?
+    </label> 
+    <label>
+        Ayudanos a mejorar!
+        <textarea name="Comentario" cols="30" rows="10">Deja aquí tu comentario</textarea>
+    </label>
+    <fieldset>
+        <legend>A cousa das cookies</legend>
+        <label>
+            <input type="radio" name="cookies" value="todas">
+            Acepto tódalas cookies
+        </label>
+        <label>
+            <input type="radio" name="cookies" value="necesarias">
+            Acepto só as cookies necesarias para o funcionamento
+        </label>
+        <label>
+            <input type="radio" name="cookies" value="ningunha">
+            Non acepto cookies
+        </label>
+    </fieldset>
+</form>
+</main>
+
+</body>
+</html>
