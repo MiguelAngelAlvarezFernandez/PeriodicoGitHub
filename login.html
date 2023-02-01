@@ -8,12 +8,22 @@
     <link rel="stylesheet" href="styleforms.css">
 </head>
 <body>
+
 <header>
-<h1>FORMULARIOS</h1>  
+    <H1>DIARIO <br> MARCA</H1>
+    <img src="LogoMarca.jfif" alt="Imagen diario marca">
 </header>
+        
+<NAV>
+    <UL>
+        <li><a href="index.html">Portada</a></li>
+        <LI><a href="SeccionFutbol.html">Futbol</a></LI>
+        <LI><a href="SeccionBaloncesto.html">Baloncesto</a></LI>
+    </UL>
+</NAV> 
 
 <main>
-<form class="FORMULARIOS">
+<form>
     <fieldset>
     <legend><h2>Iniciar sesión</h2></legend>
     <label>
@@ -30,7 +40,7 @@
     </fieldset>
 </form>
 
-<form class="FORMULARIOS">
+<form>
     <fieldset>
     <legend><h2>Formulario registro</h2></legend>
     <label>
@@ -49,31 +59,40 @@
         Repetir Contraseña: 
         <input type="password" name="Contraseña">
     </label>
-    <label> 
+    <label class = "marcadores"> 
         <input type="checkbox" name="AceptMail">
         ¿Consiente envío de e-mails?
     </label> 
     <label>
-        Ayudanos a mejorar!
+        Ayúdanos a mejorar:
         <textarea name="Comentario" cols="30" rows="10">Deja aquí tu comentario</textarea>
     </label>
-    <fieldset>
-        <legend>A cousa das cookies</legend>
-        <label>
+        <fieldset class = "cookies">
+        <legend>Consentimiento cookies</legend>
+        <label class = "marcadores">
             <input type="radio" name="cookies" value="todas">
-            Acepto tódalas cookies
+            Acepto todas las cookies
         </label>
-        <label>
+        <label class = "marcadores">
             <input type="radio" name="cookies" value="necesarias">
-            Acepto só as cookies necesarias para o funcionamento
+            Acepto solo las cookies necesarias para el funcionamiento
         </label>
-        <label>
+        <label class = "marcadores">
             <input type="radio" name="cookies" value="ningunha">
             Non acepto cookies
         </label>
+        </fieldset>
+    <label>
+        <input type="submit" value="Submit">
+    </label>
     </fieldset>
 </form>
 </main>
 
+<footer>
+    <div>Texto legal en letra pequeña para que no lo lea nadie.</div> 
+</footer>
+
 </body>
+
 </html>

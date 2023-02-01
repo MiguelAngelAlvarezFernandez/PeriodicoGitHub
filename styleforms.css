@@ -1,6 +1,94 @@
-.FORMULARIOS{
-max-width: 350px;
-padding: 10px;
-background: linear-gradient(180deg, red, transparent);
-border-radius: 30px
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 3em;
+    background-color: black;
+    color:white
+}
+
+nav{
+    border-style: solid;
+    border-color: red;
+    border-radius: 1em;
+    font-size: 2em;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+}
+
+li{
+    display: inline;
+    background-color: red;
+    border-style: solid;
+    border-radius: 0.5em;
+    padding: 4px;
+    width: 200px;
+    text-align: center;
+}
+
+li>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+body{
+    margin-right: 200px;
+    margin-left: 200px; 
+    min-width: 600px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 30px;
+    min-width: fit-content;
+    padding: 20px;
+}
+form{
+    background: linear-gradient(180deg, red, transparent);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    min-width: 600px;
+}
+
+form > fieldset {
+    margin: 20px
+}
+
+label{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 10px;
+    font-size: larger;
+}
+.marcadores {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="submit"] {
+    width: min-content;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer>div{
+    border-top: 1px solid;
+    font-size: 0.8em;
+    padding-top: 2%;
+    margin-top: 2%;
 }
