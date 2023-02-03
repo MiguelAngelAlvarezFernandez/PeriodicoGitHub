@@ -34,10 +34,6 @@ background: linear-gradient(180deg, red, transparent);
 border-radius: 30px;
 }
 
-article p{
-    font-style: italic;
-}
-
 article > figure{
     margin-left:unset
 }
