@@ -6,8 +6,8 @@ body{
 
 header{
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background-color: black;
@@ -67,6 +67,10 @@ li>a{
     color: black;
 }
 
-.figurearticles{
+.FigArtSection{
     margin-left: unset;
+}
+
+.ImgArtSection{
+    width: -webkit-fill-available;
 }
