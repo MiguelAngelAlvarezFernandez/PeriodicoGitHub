@@ -5,27 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diario Deportivo</title>
-    <link rel="stylesheet" href="styleforms.css">
-    <link rel="stylesheet" href="stylecomun.css">
+    <link rel="icon" type="image/x-icon" href="./Imagenes/LogoMarca.jpg">
+    <link rel="stylesheet" href="./Styles/styleforms.css">
+    <link rel="stylesheet" href="./Styles/stylecomun.css">
 </head>
 <body>
 
-    <header>
-        <img src="LogoMarca.jfif" alt="Imagen diario marca">
-        <H1>DIARIO MARCA</H1>
-        <a class = login href="login.html">Log in</a>
-    </header>
-        
+<header>
+<img src="./Imagenes/LogoMarca.jpg" alt="Imagen diario marca">
+<H1>DIARIO MARCA</H1>
+<div class="Formularios">
+    <a class = login href="./login.html">Log in</a>
+    <a class = login href="./registro.html">Regístrate</a>
+</div>
+</header>
+
 <NAV>
-    <UL>
-        <li><a href="index.html">Portada</a></li>
-        <LI><a href="SeccionFutbol.html">Futbol</a></LI>
-        <LI><a href="SeccionBaloncesto.html">Baloncesto</a></LI>
-    </UL>
-</NAV> 
+<UL>
+    <li><a href="./index.html">Portada</a></li>
+    <LI><a href="./SeccionFutbol/SeccionFutbol.html">Futbol</a></LI>
+    <LI><a href="./SeccionBaloncesto/SeccionBaloncesto.html">Baloncesto</a></LI>
+</UL>
+</NAV>  
 
 <main>
-<form>
+<form class = "formlogin">
     <fieldset>
     <legend><h2>Iniciar sesión</h2></legend>
     <label>
@@ -40,54 +44,9 @@
         <input type="submit" value="Log in">
     </label>
     </fieldset>
-</form>
-
-<form>
-    <fieldset>
-    <legend><h2>Formulario registro</h2></legend>
-    <label>
-        Nombre:
-        <input type="text" name="Nombre">
-    </label>
-    <label>
-        E-mail: 
-        <input type="password" name="E-mail">
-    </label>
-    <label>
-        Contraseña: 
-        <input type="password" name="Contraseña">
-    </label>
-    <label>
-        Repetir Contraseña: 
-        <input type="password" name="Contraseña">
-    </label>
-    <label class = "marcadores"> 
-        <input type="checkbox" name="AceptMail">
-        ¿Consiente envío de e-mails?
-    </label> 
-    <label>
-        Ayúdanos a mejorar:
-        <textarea name="Comentario" cols="30" rows="10">Deja aquí tu comentario</textarea>
-    </label>
-        <fieldset class = "cookies">
-        <legend>Consentimiento cookies</legend>
-        <label class = "marcadores">
-            <input type="radio" name="cookies" value="todas">
-            Acepto todas las cookies
-        </label>
-        <label class = "marcadores">
-            <input type="radio" name="cookies" value="necesarias">
-            Acepto solo las cookies necesarias para el funcionamiento
-        </label>
-        <label class = "marcadores">
-            <input type="radio" name="cookies" value="ningunha">
-            Non acepto cookies
-        </label>
-        </fieldset>
-    <label>
-        <input type="submit" value="Submit">
-    </label>
-    </fieldset>
+    <div>Si aún no estás registrado pincha 
+        <a href="./registro.html">aquí</a>
+    </div>
 </form>
 </main>
 

@@ -78,3 +78,10 @@ li>a{
 .resumennoticia{
     font-style: italic;
 }
+
+footer>div{
+    border-top: 1px solid;
+    font-size: 0.8em;
+    padding-top: 2%;
+    margin-top: 2%;
+}

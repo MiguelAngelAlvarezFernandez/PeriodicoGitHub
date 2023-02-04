@@ -1,0 +1,41 @@
+.formlogin, .formregistro{
+    background: linear-gradient(180deg, red, transparent);
+    border-radius: 30px;
+    margin:auto
+}
+
+.formlogin{
+    height: 300px;
+    max-width: 500px;
+}
+
+form > fieldset {
+    margin: 20px;
+}
+
+.formregistro{
+    height: 750px;
+}
+
+label{
+    display: flex;
+    flex-direction: column; 
+    padding-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.marcadores {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+input[type="submit"] {
+    width: min-content;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form > div {
+    text-align: center;
+}

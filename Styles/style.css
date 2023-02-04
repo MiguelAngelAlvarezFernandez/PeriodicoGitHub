@@ -34,13 +34,6 @@ background: linear-gradient(180deg, red, transparent);
 border-radius: 30px;
 }
 
-footer>div{
-    border-top: 1px solid;
-    font-size: 0.8em;
-    padding-top: 2%;
-    margin-top: 2%;
-}
-
 .PruebaFlex1{
     display: flex;
     align-items: center;
