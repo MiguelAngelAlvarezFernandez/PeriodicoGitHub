@@ -23,18 +23,19 @@ header > img {
     width: 10%; 
 }
 
-.login {
-    display: inline;
+.login, li>a {
     background-color: red;
     border-style: solid;
-    border-color: white;
     border-radius: 0.5em;
     padding: 4px;
     color: black;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
-    margin-top: 1em
+}
+
+.login{
+    border-color: white;
 }
 
 nav{
@@ -53,18 +54,15 @@ ul {
 
 li{
     display: inline;
-    background-color: red;
-    border-style: solid;
-    border-radius: 0.5em;
-    padding: 4px;
-    width: 200px;
-    text-align: center;
 }
 
 li>a{
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+    border-color: black;
+}
+
+.ImagenPortada{
+    display: block;
+    margin: 20px auto;
 }
 
 .FigArtSection{
@@ -75,13 +73,39 @@ li>a{
     width: -webkit-fill-available;
 }
 
+.titsection{
+    text-align: center;
+    border:solid red;
+    border-radius: 1em;
+    margin-right: auto;
+    margin-left:auto;
+    background-color: white; 
+}
+
+h3>a{
+    color: black;
+}
+
+.PruebaFlex1, .articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .resumennoticia{
     font-style: italic;
 }
 
+article{
+    padding: 10px;
+    background: linear-gradient(180deg, red, transparent);
+    border-radius: 30px;
+    }
+
 footer>div{
     border-top: 1px solid;
     font-size: 0.8em;
-    padding-top: 2%;
-    margin-top: 2%;
+    padding-top: 1%;
+    margin-top: 12px;
 }

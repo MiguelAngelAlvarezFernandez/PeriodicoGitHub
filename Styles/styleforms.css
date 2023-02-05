@@ -14,14 +14,17 @@ form > fieldset {
 }
 
 .formregistro{
-    height: 750px;
+    height: 800px;
+}
+
+legend{
+    font-weight: bold;
 }
 
 label{
     display: flex;
     flex-direction: column; 
     padding-top: 10px;
-    font-size: larger;
     font-weight: bold;
 }
 .marcadores {

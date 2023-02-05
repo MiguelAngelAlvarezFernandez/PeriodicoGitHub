@@ -1,33 +1,17 @@
 h2{
-    text-align: center;
-    border:solid red;
-    border-radius: 1em;
-    margin-right: auto;
-    margin-left:auto;
-    background-color: white;
     font-size: 3em;
     padding: 0.3em;
 }
 
-.imagenseccion{
-    display: block;
-    margin: auto;
-    padding-bottom: 19.92px;
-}
-
 article{
     max-width: 350px;
-    padding: 10px;
-    background: linear-gradient(180deg, red, transparent);
-    border-radius: 30px;
     }
 
 .articles{
-        display: flex;
         align-items: stretch;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        border: solid;
+        padding: 20px;
+        border-radius: 30px;
     }
 
 h3{
